@@ -1,0 +1,152 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "rc.nocontext",
+  "dataset_name": "trivia_qa",
+  "dataset_size": 124610463,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/trivia_qa@0f7faf33a3908546c6fd5b73a660e0f8ff173c2f/rc.nocontext/train-00000-of-00001.parquet": {
+      "num_bytes": 55391498,
+      "checksum": null
+    },
+    "hf://datasets/trivia_qa@0f7faf33a3908546c6fd5b73a660e0f8ff173c2f/rc.nocontext/validation-00000-of-00001.parquet": {
+      "num_bytes": 7335321,
+      "checksum": null
+    },
+    "hf://datasets/trivia_qa@0f7faf33a3908546c6fd5b73a660e0f8ff173c2f/rc.nocontext/test-00000-of-00001.parquet": {
+      "num_bytes": 1199699,
+      "checksum": null
+    }
+  },
+  "download_size": 63926518,
+  "features": {
+    "question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "question_id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "question_source": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "entity_pages": {
+      "feature": {
+        "doc_source": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "filename": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "title": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "wiki_context": {
+          "dtype": "string",
+          "_type": "Value"
+        }
+      },
+      "_type": "Sequence"
+    },
+    "search_results": {
+      "feature": {
+        "description": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "filename": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "rank": {
+          "dtype": "int32",
+          "_type": "Value"
+        },
+        "title": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "url": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "search_context": {
+          "dtype": "string",
+          "_type": "Value"
+        }
+      },
+      "_type": "Sequence"
+    },
+    "answer": {
+      "aliases": {
+        "feature": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      },
+      "normalized_aliases": {
+        "feature": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      },
+      "matched_wiki_entity_name": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "normalized_matched_wiki_entity_name": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "normalized_value": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "value": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 188536981,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 106882730,
+      "num_examples": 138384,
+      "dataset_name": "trivia_qa"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 14059830,
+      "num_examples": 17944,
+      "dataset_name": "trivia_qa"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 3667903,
+      "num_examples": 17210,
+      "dataset_name": "trivia_qa"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
