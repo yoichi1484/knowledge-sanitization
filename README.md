@@ -13,6 +13,6 @@ pip install -r requirements.txt
 sh run_sanitization.sh
 ```
 
-## External Libraries
+## Related repository
 Our code is based on [alpaca-lora](https://github.com/tloen/alpaca-lora)
 
