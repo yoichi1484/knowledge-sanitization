@@ -3,8 +3,6 @@ credential.ini
 poetry.lock
 .vscode
 *.log
-*.json
-*.jsonl
 
 # Jupyter
 **/.ipynb_checkpoints/
